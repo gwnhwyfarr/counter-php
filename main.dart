@@ -36,7 +36,8 @@ class _NewMyHomeState extends State<NewMyHome> {
     return Scaffold(
       appBar: AppBar(title: Text("Hello World"),),
       body: Container(
-        child: Center(child: Text("$counter")),
+        child: Center(child: Text("$counter", 
+        style: TextStyle(color: Colors.pink, fontSize: 90))),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
